@@ -27,7 +27,7 @@ test:
 
 # Run the main script
 run:
-	poetry run python3 $(SRC_DIR)/main.py
+	poetry run python3 $(SRC_DIR)/main.py $(ARGS)
 
 # Clean up the project
 clean:
