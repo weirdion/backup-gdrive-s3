@@ -15,7 +15,7 @@ jobs:
           python-version: '3.12'
       - name: Install rclone
         run: |
-            curl https://rclone.org/install.sh | bash
+            curl -sSL https://rclone.org/install.sh | bash
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
@@ -23,10 +23,10 @@ jobs:
           aws-region: us-east-1
       - name: Retrieve Google Drive API credentials and generate rclone config
         run: |
-          python3 main.py init
+          make run ARGS="setup"
       - name: Run rclone sync
         run: |
-          rclone sync --dry-run GDrive: AWSS3:${{ secrets.S3_BUCKET_NAME }}/Documents
+          rclone sync --config .rclone.conf --dry-run GDrive: AWSS3:${{ secrets.S3_BUCKET_NAME }}/Documents
       - name: Save refreshed Google Drive API credentials
         run: |
-          python3 main.py cleanup
+          make run ARGS="clean"
