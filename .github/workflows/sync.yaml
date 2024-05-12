@@ -5,8 +5,12 @@ on:
 
   workflow_dispatch:
 
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
-  dependency-update:
+  sync-task:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
