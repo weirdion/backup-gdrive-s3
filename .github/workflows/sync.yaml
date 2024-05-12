@@ -21,7 +21,8 @@ jobs:
         run: make install ARGS="--only main"
       - name: Install rclone
         run: |
-            curl -sSL https://rclone.org/install.sh | bash
+            sudo apt update -y
+            sudo apt install -y rclone
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
