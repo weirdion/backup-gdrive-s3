@@ -39,7 +39,7 @@ jobs:
           make run ARGS="setup"
       - name: Run rclone sync
         run: |
-          rclone sync --config .rclone.conf --dry-run GDrive: AWSS3:${{ secrets.S3_BUCKET_NAME }}/Documents
+          rclone sync --config .rclone.conf GDrive: AWSS3:${{ secrets.S3_BUCKET_NAME }}/Documents
       - name: Save refreshed Google Drive API credentials
         if: always()
         env:
