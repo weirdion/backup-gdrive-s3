@@ -3,6 +3,8 @@ on:
   schedule:
     - cron: '15 10 * * 6'
 
+  workflow_dispatch:
+
 jobs:
   dependency-update:
     runs-on: ubuntu-latest
@@ -28,5 +30,6 @@ jobs:
         run: |
           rclone sync --config .rclone.conf --dry-run GDrive: AWSS3:${{ secrets.S3_BUCKET_NAME }}/Documents
       - name: Save refreshed Google Drive API credentials
+        if: always()
         run: |
           make run ARGS="clean"
