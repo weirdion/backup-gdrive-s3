@@ -11,10 +11,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Install poetry
+        run: pipx install poetry
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Install python dependencies
+        run: make install ARGS="--only main"
       - name: Install rclone
         run: |
             curl -sSL https://rclone.org/install.sh | bash
