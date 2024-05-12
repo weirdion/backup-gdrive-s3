@@ -3,16 +3,22 @@ on:
   schedule:
     - cron: '15 10 * * 6'
 
+  workflow_dispatch:
+
 jobs:
   dependency-update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Install poetry
+        run: pipx install poetry
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Install python dependencies
+        run: make install ARGS="--only main"
       - name: Install rclone
         run: |
             curl -sSL https://rclone.org/install.sh | bash
@@ -28,5 +34,6 @@ jobs:
         run: |
           rclone sync --config .rclone.conf --dry-run GDrive: AWSS3:${{ secrets.S3_BUCKET_NAME }}/Documents
       - name: Save refreshed Google Drive API credentials
+        if: always()
         run: |
           make run ARGS="clean"
