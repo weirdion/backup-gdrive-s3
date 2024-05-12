@@ -33,6 +33,8 @@ jobs:
           role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
           aws-region: us-east-1
       - name: Retrieve Google Drive API credentials and generate rclone config
+        env:
+          SECRET_NAME: ${{ secrets.SECRET_NAME }}
         run: |
           make run ARGS="setup"
       - name: Run rclone sync
@@ -40,5 +42,7 @@ jobs:
           rclone sync --config .rclone.conf --dry-run GDrive: AWSS3:${{ secrets.S3_BUCKET_NAME }}/Documents
       - name: Save refreshed Google Drive API credentials
         if: always()
+        env:
+          SECRET_NAME: ${{ secrets.SECRET_NAME }}
         run: |
           make run ARGS="clean"
