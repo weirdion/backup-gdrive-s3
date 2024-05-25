@@ -17,8 +17,8 @@ Once we run `rclone config` for Google Drive, the output is in the format
 
 ```toml
 [GDrive]
-type = drive
-scope = drive.readonly
+type = "drive"
+scope = "drive.readonly"
 token = {"access_token":"ABCD","token_type":"Bearer","refresh_token":"XYZ","expiry":"2024-05-24T13:57:58.955387075Z"}
 ```
 
