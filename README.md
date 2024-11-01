@@ -5,6 +5,10 @@ This project uses [rclone](https://github.com/rclone/rclone) for all sync operat
 
 The sync operation is run with github workflow on a schedule.
 
+## Architecture overview
+
+![Overview](docs/backup-gdrive-s3.jpg)
+
 ## Setting up
 
 ### RSync - Google Drive
