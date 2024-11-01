@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0.1 Safari/605.1.15" version="24.8.3">
+  <diagram name="Page-1" id="j70lHMywxrs3gzZ5S1rS">
+    <mxGraphModel dx="1092" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YKClefDhiof3jwxTpQgU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="YKClefDhiof3jwxTpQgU-10" target="YKClefDhiof3jwxTpQgU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YKClefDhiof3jwxTpQgU-10" value="Users" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/user_accounts.svg;" vertex="1" parent="1">
+          <mxGeometry x="112.38" y="100" width="60.31" height="58.5" as="geometry" />
+        </mxCell>
+        <mxCell id="YKClefDhiof3jwxTpQgU-11" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.google_drive" vertex="1" parent="1">
+          <mxGeometry x="345" y="94.25" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YKClefDhiof3jwxTpQgU-13" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;" vertex="1" parent="1">
+          <mxGeometry x="250" y="80" width="22.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YKClefDhiof3jwxTpQgU-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YKClefDhiof3jwxTpQgU-15" target="YKClefDhiof3jwxTpQgU-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="142.38" y="505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKClefDhiof3jwxTpQgU-31" value="Assume role for accessing&lt;div&gt;S3 and Secrets Manager&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YKClefDhiof3jwxTpQgU-29">
+          <mxGeometry x="-0.4958" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKClefDhiof3jwxTpQgU-15" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.script_file" vertex="1" parent="1">
+          <mxGeometry x="109.63" y="340" width="65.8" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YKClefDhiof3jwxTpQgU-17" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/Python_logo-128.png" vertex="1" parent="1">
+          <mxGeometry x="89.63" y="320" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="YKClefDhiof3jwxTpQgU-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="YKClefDhiof3jwxTpQgU-18" target="YKClefDhiof3jwxTpQgU-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YKClefDhiof3jwxTpQgU-18" value="RClone" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.gear_load" vertex="1" parent="1">
+          <mxGeometry x="350" y="342.8" width="70" height="64.4" as="geometry" />
+        </mxCell>
+        <mxCell id="YKClefDhiof3jwxTpQgU-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.029;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YKClefDhiof3jwxTpQgU-15" target="YKClefDhiof3jwxTpQgU-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YKClefDhiof3jwxTpQgU-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;exitX=0.96;exitY=0.96;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YKClefDhiof3jwxTpQgU-15" target="YKClefDhiof3jwxTpQgU-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="166.78" y="342.8" as="sourcePoint" />
+            <mxPoint x="332.38" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKClefDhiof3jwxTpQgU-24" value="Google Drive&lt;div&gt;Read Access&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Token&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YKClefDhiof3jwxTpQgU-23">
+          <mxGeometry x="-0.0058" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKClefDhiof3jwxTpQgU-25" value="Secrets Manager" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.secrets_manager;" vertex="1" parent="1">
+          <mxGeometry x="273.24" y="455" width="69.15" height="69.15" as="geometry" />
+        </mxCell>
+        <mxCell id="YKClefDhiof3jwxTpQgU-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YKClefDhiof3jwxTpQgU-26" target="YKClefDhiof3jwxTpQgU-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YKClefDhiof3jwxTpQgU-26" value="STS" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.sts;" vertex="1" parent="1">
+          <mxGeometry x="103.53" y="590" width="78" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YKClefDhiof3jwxTpQgU-27" value="IAM Role" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" vertex="1" parent="1">
+          <mxGeometry x="346" y="593" width="78" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="YKClefDhiof3jwxTpQgU-32" value="S3 Glacier&lt;div&gt;Instant Retrieval&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.simple_storage_service_s3_glacier_instant_retrieval;" vertex="1" parent="1">
+          <mxGeometry x="602.38" y="336" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="YKClefDhiof3jwxTpQgU-33" value="Google Drive" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="64.25" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YKClefDhiof3jwxTpQgU-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YKClefDhiof3jwxTpQgU-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKClefDhiof3jwxTpQgU-35" value="Read files" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YKClefDhiof3jwxTpQgU-34">
+          <mxGeometry x="0.1246" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKClefDhiof3jwxTpQgU-37" value="Synchronize files" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="348" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
