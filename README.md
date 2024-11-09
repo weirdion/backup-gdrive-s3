@@ -11,9 +11,9 @@ The sync operation is run with github workflow on a schedule.
 
 ## Setting up
 
-### RSync - Google Drive
+### RClone - Google Drive
 
-RSync Google Drive documentation - [link](https://rclone.org/drive/).
+RClone Google Drive documentation - [link](https://rclone.org/drive/).
 
 We are only reading from Google Drive, so we only need `drive.readonly`.
 
