@@ -9,7 +9,7 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
-boto3 = "^1.37.23"
+boto3 = "^1.37.33"
 
 
 [tool.poetry.group.dev.dependencies]
