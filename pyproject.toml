@@ -13,7 +13,7 @@ boto3 = "^1.40.64"
 
 
 [tool.poetry.group.dev.dependencies]
-black = "^25.1.0"
+black = "^25.11.0"
 isort = "^7.0.0"
 pytest = "^8.4.1"
 
