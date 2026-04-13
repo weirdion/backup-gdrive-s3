@@ -53,18 +53,18 @@ uvloop = ["uvloop (>=0.15.2) ; sys_platform != \"win32\"", "winloop (>=0.5.0) ; 
 
 [[package]]
 name = "boto3"
-version = "1.42.68"
+version = "1.42.88"
 description = "The AWS SDK for Python"
 optional = false
 python-versions = ">=3.9"
 groups = ["main"]
 files = [
-    {file = "boto3-1.42.68-py3-none-any.whl", hash = "sha256:dbff353eb7dc93cbddd7926ed24793e0174c04adbe88860dfa639568442e4962"},
-    {file = "boto3-1.42.68.tar.gz", hash = "sha256:3f349f967ab38c23425626d130962bcb363e75f042734fe856ea8c5a00eef03c"},
+    {file = "boto3-1.42.88-py3-none-any.whl", hash = "sha256:2d0f52c971503377e4370d2a83edee6f077ddb8e684366ff38df4f13581d9cfc"},
+    {file = "boto3-1.42.88.tar.gz", hash = "sha256:2d22c70de5726918676a06f1a03acfb4d5d9ea92fc759354800b67b22aaeef19"},
 ]
 
 [package.dependencies]
-botocore = ">=1.42.68,<1.43.0"
+botocore = ">=1.42.88,<1.43.0"
 jmespath = ">=0.7.1,<2.0.0"
 s3transfer = ">=0.16.0,<0.17.0"
 
@@ -73,14 +73,14 @@ crt = ["botocore[crt] (>=1.21.0,<2.0a0)"]
 
 [[package]]
 name = "botocore"
-version = "1.42.68"
+version = "1.42.88"
 description = "Low-level, data-driven core of boto 3."
 optional = false
 python-versions = ">=3.9"
 groups = ["main"]
 files = [
-    {file = "botocore-1.42.68-py3-none-any.whl", hash = "sha256:9df7da26374601f890e2f115bfa573d65bf15b25fe136bb3aac809f6145f52ab"},
-    {file = "botocore-1.42.68.tar.gz", hash = "sha256:3951c69e12ac871dda245f48dac5c7dd88ea1bfdd74a8879ec356cf2874b806a"},
+    {file = "botocore-1.42.88-py3-none-any.whl", hash = "sha256:032375b213305b6b81eedb269eaeefdf96f674620799bbf96117dca86052cc1a"},
+    {file = "botocore-1.42.88.tar.gz", hash = "sha256:cbb59ee464662039b0c2c95a520cdf85b1e8ce00b72375ab9cd9f842cc001301"},
 ]
 
 [package.dependencies]
@@ -391,4 +391,4 @@ zstd = ["backports-zstd (>=1.0.0) ; python_version < \"3.14\""]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.12"
-content-hash = "b3d5ff09fb0c6e083e1782150224b732a98466447552478556f9e5c720c4c589"
+content-hash = "7478ab5fd9d3a713085e8473734714983df9a3dccdb93e0de934939c06d3e85d"
